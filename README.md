@@ -21,4 +21,39 @@
 - Diffrent Dev and Production bundles
 
 
+# Namaste Food
 
+/**
+ * Header
+ *  - Logo
+ *  - Nav Items
+ * Body
+ *  - Search
+ *  - RestaurantContainer
+ *    - RestaurantCard
+ *      - Img
+ *      - Name of Res, Star Rating, cuisine, delery tie
+ * Footer
+ *  - Copyright
+ *  - Links
+ *  - Address
+ *  - Contact
+ */
+
+
+Two type of Export/Import
+
+-Default Export/Import
+
+ export default component;
+ import component from "path";
+
+-Name Export/Import
+
+ export const component;
+ import {component} from "path";
+
+# React Hooks
+  (Normal JS  utility functions)
+- useState() - superpowerful state Variables in react
+- useEffect()
